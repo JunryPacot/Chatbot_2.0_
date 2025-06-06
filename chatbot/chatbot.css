@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.chat-container {
+  width: 400px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+#chat-box {
+  height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #4285f4;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.user {
+  color: blue;
+  font-weight: bold;
+}
+
+.bot {
+  color: green;
+  font-weight: bold;
+}
+.avatar{
+  width: 20px;
+  height: 20px;
+}
+.chat-container h1{
+  text-align: center;
+}
+#prompt-form{
+
+  display: flex;
+
+  gap: 10px;
+
+}
+#prompt-form input{
+  width: 300px;
+}
+#prompt-form button{
+  width: 100px;
+  margin: auto;
+
+}
+.message {
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  max-width: 75%;
+  clear: both;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.user-message {
+  background-color: #4285f4;
+  color: white;
+  float: right;
+  text-align: right;
+}
+
+.bot-message {
+  background-color: #f1f0f0;
+  color: #333;
+  float: left;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.message-text {
+  margin: 0;
+}
+
