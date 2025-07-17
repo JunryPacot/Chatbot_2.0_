@@ -31,3 +31,13 @@ Junry AI Chatbot is a simple yet functional web-based chatbot that uses the **Ge
    ```bash
    git clone https://github.com/JunryPacot/Chatbot_2.0_.git
    cd Chatbot_2.0_
+
+
+## 🌐 Live Demo
+
+> 🔗 [Click here to try the chatbot](https://chatbot-2-0-q8g5.vercel.app)  
+> *(Deployed via Vercel — accessible on any browser)*
+
+---
+
+   
