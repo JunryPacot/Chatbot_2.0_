@@ -82,7 +82,7 @@ const handleFormSubmit = (e) => {
 
   setTimeout(() => {
     const botMsgDiv = createMsgElement(
-      `<img src="aidev.jpg" class="avatar"><p class="message-text">Dev Aron reply...</p>`,
+      `<img src="junry.jpg" class="avatar"><p class="message-text">Dev Junry reply...</p>`,
       "bot-message",
       "loading"
     );
